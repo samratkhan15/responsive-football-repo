@@ -81,3 +81,22 @@ body{
     margin: 50px;
 }
 
+@media only screen and (max-width:688px){
+    .game-start{
+        width: 100%;
+    }
+    .Player{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+}
+    
+.color{
+    color:blueviolet;
+}
+a{
+    background-color: coral;
+    color: black;
+    border-radius: 10px;
+    height:2.8em;
+}
